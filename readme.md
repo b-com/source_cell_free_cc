@@ -2,6 +2,15 @@
 
 This Python script is used to compute the main results presented in the paper. It is organized into sections so that it can be executed as a notebook. The first section loads the training dataset from the data_base_channel repertory, and the second section loads all the necessary functions. The remaining sections are used for data computation. Each section produces a .h5 result file, which is then used to generate the graphs shown in the paper. The main parameter for computation is the dataset size or SNR range, depending on the section.
 
+# To use the python code:
+
+- Download data_base_channel.zip via https://github.com/b-com/source_cell_free_cc/releases/download/v1.0.0-data_base_channel/data_base_channel.zip,
+- extract archive near CC_based_exclusion.py.
+
+# To access to the blender scene, use: 
+https://github.com/b-com/source_cell_free_cc/releases/download/v1.0.0/factory.zip
+
+
 # Requirements
 
 The python packages used in the simulation are summurized in requirements.txt
